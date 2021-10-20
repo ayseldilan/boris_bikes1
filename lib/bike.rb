@@ -1,4 +1,7 @@
 class Bike
-  def working
+  def working?
+    true 
+  end
+  def bike(bike)
   end
 end
