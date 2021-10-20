@@ -1,5 +1,8 @@
 class Bike
   def working?
-    true 
+    true
+  end
+  def Bike
+    bike = Bike
   end
 end

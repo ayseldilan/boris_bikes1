@@ -7,6 +7,10 @@ describe DockingStation do
   end
   it 'gets bike' do
     docking_station = DockingStation.new
+    expect(docking_station).respond_to? :bike
+  end
+  it 'bike working' do
+    docking_station = DockingStation.new
     expect(docking_station.release_bike).to respond_to :working?
   end
 end
